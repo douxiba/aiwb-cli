@@ -1,0 +1,48 @@
+ver: "v1.0.0"
+project:
+  name: "Class Widgets"
+  nameEnglish: "Class Widgets"
+  slug: "class-widgets"
+  alternativeNames: ["CW"]
+  isHidden: True
+  metadata:
+    supportedPlatforms: ["win10", "win11", "macos", "linux"]
+    icon: "{project}/assets/appIcon.png"
+    programLangs: "python"
+    frameworks: ["pyqt5", "pyqt5-fluent"]
+    pricingPlan: "free"
+    isOpenSource: True
+    primaryColor: null
+    isAwesomeProject: True
+    banners:
+      - "{project}/assets/banner.png"
+  developers: ["RinLit"]
+  developerLinks:
+    - ["github", "RinLit-233-shiroko"]
+    - ["bilibiliUid", "569522843"]
+    - ["stcn", "RinLit"]
+    - ["wakatime", "RinLit"]
+    - ["qq", "3295014118"]
+    - ["avatar", "https://github.com/RinLit-233-shiroko.png"]
+  repos:
+    - ["github@Class-Widgets/Class-Widgets", "主仓库"]
+  referenceLinks:
+    - title: "全新的桌面课程表 - Class Widgets | 快闪 | 希沃"
+      source: "哔哩哔哩"
+      url: "https://www.bilibili.com/video/BV1xwW9eyEGu/"
+      platform: "bilibiliVideo"
+      type: "video"
+    - title: "春节重磅更新 - Class Widgets 1.1.7 | 快闪 | 2025 UPDATES"
+      source: "哔哩哔哩"
+      url: "https://www.bilibili.com/video/BV1SSfDYmEa4/"
+      platform: "bilibiliVideo"
+      type: "video"
+  socialMedias:
+    - [
+        "qqGroup",
+        "169200380",
+        "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=yHXKCAjOxlpTpJ4mNdXm0mxOneYUinRs&authKey=sd3%2F06iGdOZUjkXXPBeIzGnFDIeYwmdwuM8dhk25fi%2B1CUL32MkeN2EEfjdo2pzE&noverify=0&group_code=169200380",
+      ]
+    - ["discord", "https://discord.gg/EFF4PpqpqZ"]
+  generators:
+    - "aiwb-readme"

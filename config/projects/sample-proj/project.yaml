@@ -1,0 +1,21 @@
+ver: "v1.0.0"
+project:
+  name: "SampleProject"
+  nameEnglish: "SampleProject"
+  slug: "sample"
+  alternativeNames: ["123", "456", "789"]
+  metadata:
+    supportedPlatforms: ["win10", "win11"]
+    programLangs: "csharp"
+    frameworks: ["wpf", "mdinxaml"]
+    pricingPlan: "free"
+    isOpenSource: True
+    isAwesomeProject: True
+    banners:
+      - "{project}/assets/banner.png"
+  developers: ["Douxiba"]
+  developerLinks:
+    - ["github", "douxiba"]
+    - ["avatar", "https://github.com/douxiba.png"]
+  generators:
+    - "aiwb-readme"

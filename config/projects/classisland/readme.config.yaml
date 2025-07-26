@@ -1,0 +1,16 @@
+ver: "v1.0.0"
+readme:
+  imports:
+    - module: "base"
+    - module: "banner"
+    - module: "datalens"
+    - module: "section"
+      ref: "{project}/sections/section-guanfangjieshao.md"
+    - module: "aiwb-summary"
+      ref: "{project}/sections/section-aiwbzongjie.md"
+    - module: "ruiping"
+      refs:
+        - "{project}/sections/sections-ruiping-douxiba.md"
+        - "{project}/sections/sections-ruiping-makitoid.md"
+    - module: "links"
+    - module: "ranking"

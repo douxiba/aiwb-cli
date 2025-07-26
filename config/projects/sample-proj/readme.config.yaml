@@ -1,0 +1,5 @@
+ver: "v1.0.0"
+readme:
+  imports:
+    - module: "base"
+    - module: "banner"

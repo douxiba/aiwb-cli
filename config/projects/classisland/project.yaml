@@ -1,0 +1,87 @@
+ver: "v1.0.0"
+project:
+  name: "ClassIsland"
+  nameEnglish: "ClassIsland"
+  slug: "classisland"
+  alternativeNames: ["灵动课岛", "课是地", "CI"]
+  isHidden: True
+  metadata:
+    supportedPlatforms: ["win10", "win11"]
+    icon: "{project}/assets/appIcon.svg"
+    programLangs: "csharp"
+    frameworks: ["wpf", "mdinxaml"]
+    pricingPlan: "free"
+    isOpenSource: True
+    primaryColor: "#03BFFF"
+    isAwesomeProject: True
+    banners:
+      - "{project}/assets/banner.png"
+  developers: ["HelloWRC"]
+  developerLinks:
+    - ["github", "HelloWRC"]
+    - ["bilibiliUid", "355897687"]
+    - ["website", "https://hellowrc.dev/"]
+    - ["stcn", "HelloWRC"]
+    - ["wakatime", "HelloWRC"]
+    - ["avatar", "https://github.com/HelloWRC.png"]
+  repos:
+    - ["github@ClassIsland/ClassIsland", "主仓库"]
+    - ["github@ClassIsland/ClassIsland-net6", ".NET6 兼容版"]
+  referenceLinks:
+    - title: "ClassIsland – 在教室大屏幕上显示「课表信息」，支持上下课、放学提醒，语音播报[Windows]"
+      source: "小众软件"
+      url: "https://www.appinn.com/classisland/"
+      type: "article"
+    - title: "颠覆你的工作方式：不可不试的5款效率神器！"
+      source: "CS$N"
+      isAigc: True
+      isSpamful: True
+      url: "https://blog.csdn.net/qxf865618770/article/details/141522869"
+      type: "article"
+    - title: "ClassIsland - 在教室大屏幕上显示课表信息，支持语音播报"
+      source: "哔哩哔哩"
+      notes: "开发者官方发布的宣传视频"
+      url: "https://www.bilibili.com/video/BV1Rm421g7X3/"
+      platform: "bilibiliVideo"
+      type: "video"
+    - title: "ClassIsland 入门教程"
+      source: "哔哩哔哩"
+      platform: "bilibiliVideo"
+      type: "video"
+      notes: "来自开发者发布的入门教程"
+      url: "https://www.bilibili.com/video/BV1fA4m1A7uZ/"
+    - title: "ClassIsland 课表工具 1.5 版本更新日志：自定义组件、插件系统、字体自定义、以及更多新功能！"
+      notes: "来自开发者发布的 1.5 版本更新日志视频"
+      source: "哔哩哔哩"
+      platform: "bilibiliVideo"
+      type: "video"
+      url: "https://www.bilibili.com/video/BV1EEsNeYEc9/"
+    - title: "【ClassIsland】你的课表，比想象更聪明"
+      notes: "开发者官方发布的宣传视频"
+      source: "哔哩哔哩"
+      platform: "bilibiliVideo"
+      type: "video"
+      url: "https://www.bilibili.com/video/BV12fFoefEGn/"
+    - title: "【ClassIsland 更新日志】1.7 更新日志：滚动组件、天气增强、课表功能优化、主题集成以及更多新功能！"
+      notes: "来自开发者发布的 1.7 版本更新日志视频"
+      source: "哔哩哔哩"
+      platform: "bilibiliVideo"
+      type: "video"
+      url: "https://www.bilibili.com/video/BV1y2Jxz1Et7/"
+    - title: "ClassIsland——适用于大屏的课表小工具"
+      notes: "开发者官方发布的宣传视频"
+      source: "哔哩哔哩"
+      platform: "bilibiliVideo"
+      type: "video"
+      url: "https://www.bilibili.com/video/BV1Lt421n7op/"
+    - title: "全自动？多课表？多功能教学课表软件的再次「进化」| ClassIsland 宣传 PV"
+      notes: "ClassIsland 重度用户制作的宣传视频"
+      url: "https://www.bilibili.com/video/BV1AqFYeoEZ6/"
+      source: "哔哩哔哩"
+      platform: "bilibiliVideo"
+      type: "video"
+  socialMedias:
+    - ["qqGroup", "958840932", "https://qm.qq.com/q/4NsDQKiAuQ"]
+    - ["qqChannel", "ClassIsland", "https://pd.qq.com/s/scb3wzia"]
+  generators:
+    - "aiwb-readme"

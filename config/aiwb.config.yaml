@@ -1,0 +1,12 @@
+config:
+  title: "Awesome Iwb"
+  socialLinks:
+    - type: "qqGroup"
+      id: "1004548404"
+      url: "https://qm.qq.com/q/im8ZtJpkZy"
+    - type: "telegramGroup"
+      id: "awesome_iwb"
+      url: "https://t.me/awesome_iwb"
+  refs:
+    projects: "./aiwb.projects.yaml"
+    template: "./aiwb.template.md"

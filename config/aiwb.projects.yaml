@@ -1,0 +1,5 @@
+ver: "v1.0.0"
+projects:
+  - "./config/projects/classisland"
+  - "./config/projects/class-widgets"
+  - "./config/projects/sample-proj"
