@@ -63,7 +63,8 @@ export async function render(context, project, props = {}) {
   }
 
   return {
-    isOk: true,
+    contentType: "markdown",
+    isRendered: true,
     rendered: markdown,
   };
 }

@@ -7,6 +7,8 @@ config:
     - type: "telegramGroup"
       id: "awesome_iwb"
       url: "https://t.me/awesome_iwb"
+  cacheOptions:
+    dir: "./assets"
   refs:
-    projects: "./aiwb.projects.yaml"
-    template: "./aiwb.template.md"
+    projects: "./config/aiwb.projects.yaml"
+    template: "./config/aiwb.template.md"

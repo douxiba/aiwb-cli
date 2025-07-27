@@ -48,6 +48,7 @@ export function generateBadge({
   }
 
   const mdTag = `![${imgAlt}](${imgUrl})`;
+
   return url ? `[${mdTag}](${url})` : mdTag;
 }
 
@@ -64,6 +65,7 @@ function isHexColor(str) {
  * @param {string} opts.link - 点击后的跳转链接
  * @param {string} [opts.logo] - logo（默认为 qq）
  * @param {string} [opts.alt] - 图片 alt 文本（默认为 交流群）
+ * @param {string} [opts.left] - 左边文本（默认为 交流群）
  * @returns {string}
  */
 export function generateQQGroupBadge({
@@ -71,13 +73,14 @@ export function generateQQGroupBadge({
   link,
   logo = "qq",
   alt = "交流群",
+  left = "交流群",
   isDark = false,
 }) {
   const safeAlt = alt.replace(/\s+/g, ""); // 去除空格防止语法错误
 
   return generateBadge({
     type: "md",
-    left: "交流群",
+    left: left,
     content: number,
     color: isDark ? "#3f3f46" : "white",
     logo,

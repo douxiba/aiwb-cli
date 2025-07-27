@@ -3,3 +3,4 @@ projects:
   - "./config/projects/classisland"
   - "./config/projects/class-widgets"
   - "./config/projects/sample-proj"
+basepath: "./config/projects"
