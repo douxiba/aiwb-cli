@@ -6,7 +6,7 @@
     <img width="96" alt="aiwb-logo" src="./assets/awesome-iwb-icon-light.png">
 </picture>
 
-<h1> {{= it.config.title }} </h1>
+<h1> <%= it.config.title %> </h1>
 
 可能是 **最全的** 电教与希沃一体机软件推荐列表<br/>
 收集各类开源优质项目，让班级大屏更好用!<br/>
@@ -14,8 +14,8 @@
 
 > ⚠️ 注意：Awesome Iwb v2 还在早期测试中...
 
-{{= module$badge_generateBadge({left:"最后更新",right:"2025年7月25日",color:"orange"}) }}
-{{= module$badge_generateQQGroupBadge({number:"1004548404",link:"https://qm.qq.com/q/im8ZtJpkZy"}) }}
+<%= module$badge_generateBadge({left:"最后更新",right:"2025年7月25日",color:"orange"}) %>
+<%= module$badge_generateQQGroupBadge({number:"1004548404",link:"https://qm.qq.com/q/im8ZtJpkZy"}) %>
 
 </div>
 
@@ -31,4 +31,4 @@
 
 # 正文
 
-{{= await renderModule$projects() }}
+<%= await renderModule$projects() %>

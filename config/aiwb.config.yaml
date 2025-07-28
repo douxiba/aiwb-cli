@@ -12,3 +12,4 @@ config:
   refs:
     projects: "./config/aiwb.projects.yaml"
     template: "./config/aiwb.template.md"
+    assetsPath: "./config/assets"
